@@ -115,6 +115,7 @@ li {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+  text-align: justify;
 }
 .thm-btn {
   border: none;
@@ -228,11 +229,11 @@ li {
   display: block;
   font-size: 30px;
   font-weight: bold;
-  color: #ffffff;
+  color: #0c0c0c;
   text-transform: uppercase;
 }
 .sec-title p {
-  color: #ffffff;
+  color: #0e0d0d;
   margin: 0;
   margin-top: 20px;
 }
@@ -1167,10 +1168,10 @@ li {
   background: #fff;
 }
 .welcome-single-services:hover .text-box {
-  background: #1FB5C7;
+  background:#183650;
 }
 .welcome-single-services:hover .text-box:before {
-  background: #1FB5C7;
+  background: #183650;
 }
 .welcome-single-services:hover .text-box:after {
   background: #183650;
@@ -3399,7 +3400,7 @@ li {
   position: relative;
 }
 .request-qoute.has-overlay .sec-title h2 span {
-  color: #fff;
+  color: #000000;
 }
 .request-qoute.has-overlay .has-overlay {
   position: relative;
