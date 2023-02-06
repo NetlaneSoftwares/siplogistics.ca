@@ -118,8 +118,9 @@ li {
 }
 .thm-btn {
   border: none;
+  border-radius: 30px;
   outline: none;
-  background: #F7BE3D;
+  background:  #ffffff; 
   font-size: 14px;
   line-height: 28px;
   color: #202020;
@@ -135,7 +136,7 @@ li {
           transition: all 0.5s ease;
 }
 .thm-btn:hover {
-  background: #1FB5C7;
+  background: rgb(206, 220, 221); 
   color: #fff;
 }
 .thm-btn:hover i {
@@ -227,11 +228,11 @@ li {
   display: block;
   font-size: 30px;
   font-weight: bold;
-  color: #323232;
+  color: #ffffff;
   text-transform: uppercase;
 }
 .sec-title p {
-  color: #898989;
+  color: #ffffff;
   margin: 0;
   margin-top: 20px;
 }
@@ -430,7 +431,7 @@ li {
 }
 #top-bar .top-contact-info li {
   display: inline-block;
-  color: #C0C0C0;
+  color: #cccccc;
   padding-left: 35px;
 }
 #top-bar .top-contact-info li i {
@@ -1427,11 +1428,13 @@ li {
 .contact-form.contact-page textarea {
   height: 220px;
   background: #FDFDFE;
+  border-radius: 20px;
 }
 .contact-form.contact-page p {
   margin-bottom: 20px;
 }
 .contact-form.contact-page button {
+  border-radius: 30px;
   margin-top: 0;
   padding-top: 8px;
   padding-bottom: 8px;
@@ -1454,6 +1457,7 @@ li {
 .contact-form input {
   width: 100%;
   border: 1px solid #E5E5E5;
+  border-radius: 20px;
   outline: none;
   height: 47px;
   padding: 0 20px;
@@ -1917,7 +1921,7 @@ li {
   content: '';
   width: 40px;
   height: 2px;
-  background: #F7BE3D;
+  background: #ffffff;
   display: block;
   margin-top: 13px;
 }
@@ -1935,7 +1939,7 @@ li {
   margin-top: 30px;
 }
 .footer-widget .about-widget a {
-  color: #1FB5C7;
+  color: #99cbf7;
   margin-top: 20px;
 }
 .footer-widget .about-widget .social {
@@ -1946,12 +1950,12 @@ li {
   width: 40px;
   height: 40px;
   text-align: center;
-  border: 1px solid #1FB5C7;
+  border: 1px solid#5294ce;
   border-radius: 50%;
   margin-right: 6px;
 }
 .footer-widget .social li a {
-  color: #1FB5C7;
+  color: #5098d6;
   font-size: 18px;
   line-height: 38px;
 }
@@ -1964,7 +1968,7 @@ li {
   line-height: 39px;
 }
 .footer-widget .link-list a:hover {
-  color: #208e9b;
+  color:#c6daeb;
 }
 .footer-widget .contact-infos li .icon-box,
 .footer-widget .contact-infos li .text-box {
@@ -1973,16 +1977,16 @@ li {
 }
 .footer-widget .contact-infos li .icon-box {
   font-size: 17px;
-  color: #636363;
+  color: #1c3a53;
   vertical-align: top;
 }
 .footer-widget .contact-infos li .text-box {
   padding-left: 18px;
-  color: #62666A;
+  color:  #1c3a53;
 }
 .footer-widget .contact-infos li .text-box b {
   font-weight: bold;
-  color: #82868A;
+  color: #1c3a53;
 }
 
 /* ==============================
@@ -2167,7 +2171,7 @@ li {
   vertical-align: top;
 }
 .contact-info ul li .icon-box i {
-  color: #F6BA18;
+  color:  #13314C; 
   font-size: 45px;
   position: relative;
   top: 5px;
@@ -2176,19 +2180,20 @@ li {
   padding-left: 45px;
 }
 .contact-info ul li .content p {
-  color: #8D8D8D;
+  color: #000000;
   margin: 0;
 }
 #contact-page-google-map {
   margin-top: 80px;
-  height: 400px;
-  padding: 6px;
+  height: 200px;
+  padding-top: 12px;
   width: 100%;
   background: #fff;
   border: 1px solid #F0F0F0;
+  position: block;
 }
 .contact-page-content {
-  background: #ffffff url(../images/contact-page-bg.png) top right no-repeat;
+  background: #13314C; 
 }
 .rqa-feature .bg-1 {
   background: #13314C;
