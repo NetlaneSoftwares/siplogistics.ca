@@ -116,6 +116,7 @@ li {
   margin-left: auto;
   margin-right: auto;
   text-align: justify;
+  font-family: sans-serif;
 }
 .thm-btn {
   border: none;
@@ -1125,6 +1126,7 @@ li {
 .welcome-text {
   background: #183650;
   padding: 80px 0 120px;
+  font-family: sans-serif;
 }
 .welcome-text .title-box,
 .welcome-text .text-box {
