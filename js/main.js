@@ -323,3 +323,7 @@ jQuery(window).on('scroll', function () {
 	})(jQuery);
 });
 
+    jQuery(window).on("load", function () {
+      jQuery(".loader").fadeOut(1000);
+    });
+
