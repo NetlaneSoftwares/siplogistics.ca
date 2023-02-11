@@ -830,6 +830,8 @@ li {
 }
 .nav-holder {
   position: relative;
+  width: 75%;
+  text-align: right;
 }
 .nav-holder .nav-header {
   display: none;
@@ -1122,6 +1124,9 @@ li {
   width: 100%;
   z-index: 9999;
   padding: 0 10px;
+}
+#header2 .logo img {
+  width: 85%;
 }
 #header2.stricky-fixed {
   background: #13314c;
@@ -1458,7 +1463,7 @@ li {
   width: 45px;
   height: 3px;
   display: block;
-  vertical-align: top;
+  /* vertical-align: top; */
   margin-top: 10px;
 }
 .single-featured-service .title-box h3 span {
@@ -1557,6 +1562,7 @@ li {
 .contact-form.contact-page button {
   border-radius: 30px;
   margin-top: 0;
+  margin-bottom: 20px;
   padding-top: 8px;
   padding-bottom: 8px;
 }
@@ -2209,7 +2215,7 @@ li {
   width: 45px;
   height: 3px;
   display: block;
-  vertical-align: top;
+  /* vertical-align: top; */
   margin-top: 10px;
 }
 .single-services h3 span {
@@ -3478,9 +3484,14 @@ li {
 =========================== */
 
 .text-rotator-banner {
-  background-size: cover;
-  background-position: center center;
+  background-position: center !important;
   height: 100vh;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background: url(../images/trucks/truck-home.jpg);
+}
+.about-page-bg-image {
+  background: url(../images/trucks/truck-about.jpg);
 }
 .text-rotator-banner.style-two .caption-wrapper {
   margin-top: 80px;
