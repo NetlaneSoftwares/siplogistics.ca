@@ -846,6 +846,7 @@ li {
   color: #fff;
   font-size: 18px;
   border-radius: 5px;
+  padding-top: 5px;
 }
 .nav-holder .nav-footer {
   display: block;
